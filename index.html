@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Smooth Scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+
+<body class="bg-gray-100 text-gray-800">
+
+  
+  <!-- HERO -->
+  <section class="min-h-screen relative flex items-center justify-center bg-white/80">
+    <div id="hero-particles" class="absolute inset-0 -z-10 "></div>
+    <div class="text-center" data-aos="fade-up">      
+      <h1 class="text-4xl md:text-6xl font-bold text-indigo-600">
+        <span id="greeting" class="inline-block transition duration-1s opacity-200">Halo</span>, saya Hafidh!</h1>
+      <p class="mt-4 text-lg">Saya adalah seorang Pelajar.</p>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-gray-30">
+    <div class="max-w-7xl mx-auto px-12 grid md:grid-cols-3 gap-8 items-start">
+
+      <!-- FOTO -->
+      <div class="flex justify-center" data-aos="fade-right">
+        <img src="meng.jpg" alt="Foto Saya" class="rounded-2xl shadow-lg w-64 h-64 object-cover" />
+      </div>
+
+      <!-- TENTANG SAYA -->
+      <div data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Tentang Saya</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          Saya adalah seorang front-end developer yang fokus pada desain bersih, cepat, dan responsif.
+          Saya senang membangun website yang tidak hanya bagus secara visual, tetapi juga fungsional dan user-friendly.
+          Saat ini saya sedang mendalami Tailwind CSS dan JavaScript.
+        </p>
+      </div>
+
+      <!-- TRACK KEHIDUPAN -->
+      <div data-aos="fade-left">
+        <h3 class="text-3xl font-semibold text-gray-800 mb-4">Track Kehidupan</h3>
+        <ul class="space-y-4">
+          <li class="flex items-center space-x-3">
+            <img src="cake-birthday.png" alt="Ikon Lahir" class="w-6 h-6">
+            <span class="text-gray-700">Lahir di <strong>Jakarta</strong></span>
+          </li>
+          <li class="flex items-center space-x-3">
+            <img src="graduation-cap.png" alt="Ikon Sekolah" class="w-6 h-6">
+            <span class="text-gray-700">SMP di <strong>SMPN 37 Bekasi</strong></span>
+          </li>
+          <li class="flex items-center space-x-3">
+            <img src="graduation-cap.png" alt="Ikon SMK" class="w-6 h-6">
+            <span class="text-gray-700">SMK di <strong>SMKN 7 Jakarta</strong></span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 text-center" data-aos="zoom-in">
+      <h2 class="text-3xl font-bold text-gray-800 mb-10">Skill's</h2>
+
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="flex flex-col items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732225.png" alt="Photoshop" class="w-12 h-12 mb-2">
+          <p class="text-gray-700">Photoshop</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Figma" class="w-12 h-12 mb-2">
+          <p class="text-gray-700">Figma</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt="Premiere Pro" class="w-12 h-12 mb-2">
+          <p class="text-gray-700">Premiere Pro</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/10434/10434474.png" alt="Capcut" class="w-12 h-12 mb-2">
+          <p class="text-gray-700">Capcut</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="VS Code" class="w-12 h-12 mb-2">
+          <p class="text-gray-700">VS Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12" data-aos="fade-up">Karya Saya</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div data-aos="fade-up" data-aos-delay="100">
+          <img src="Mockup Meraki Gelas - Copy.jpg" alt="Project 2" class="rounded-lg shadow hover:shadow-lg transition">
+        </div>
+        <div data-aos="fade-up" data-aos-delay="0">
+          <img src="Simply Lovely - Copy.png" alt="Project 1" class="rounded-lg shadow hover:shadow-lg transition">
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
+          <img src="Mockup Meraki Hoodie - Copy.jpg" alt="Project 3" class="rounded-lg shadow hover:shadow-lg transition">
+          <span class="block mt-3">
+          <img src="Mockup Meraki Gantungan Kunci - Copy.jpg" alt="Project 3" class="rounded-lg shadow hover:shadow-lg transition">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-xl mx-auto px-4 text-center" data-aos="fade-up">
+      <p class="text-gray-600 text-lg mb-6">Tertarik bekerja sama?</p>
+      <a href="https://wa.me/6289520101420" class="inline-block px-8 py-3 bg-indigo-600 text-white text-lg font-semibold rounded-full shadow hover:bg-indigo-700 transition">HIRE ME</a>
+      <div class="flex justify-center gap-6 mt-8">
+        <a href="https://instagram.com/username" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6">
+        </a>
+        <a href="https://linkedin.com/in/username" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="w-6 h-6">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-gray-500 text-sm py-6 bg-white border-t">
+    2025
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTop" class="hidden fixed bottom-6 right-6 bg-indigo-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-indigo-700 transition">
+    ↑ Top
+  </button>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: false,
+      duration: 800
+    });
+
+    // Scroll Button
+  const btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('hidden', window.scrollY < 300);
+  });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // HIDE PRELOADER WHEN PAGE IS READY
+  window.addEventListener('load', function () {
+    const preloader = document.getElementById('preloader');
+    preloader.style.opacity = '0';
+    preloader.style.transition = 'opacity 0.5s ease';
+
+    setTimeout(() => {
+      preloader.style.display = 'none';
+    }, 500);
+  });
+    
+  </script>
+
+<script>
+  const greetings = ["Halo", "Hello", "Hola", "Bonjour", "Ciao", "Konnichiwa", "안녕하세요", "Merhaba"];
+  let index = 0;
+  const el = document.getElementById("greeting");
+
+  setInterval(() => {
+    index = (index + 1) % greetings.length;
+    el.classList.remove("opacity-100");
+    el.classList.add("opacity-0");
+
+    setTimeout(() => {
+      el.textContent = greetings[index];
+      el.classList.remove("opacity-0");
+      el.classList.add("opacity-100");
+    }, 300);
+  }, 2000);
+</script>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("hero-particles", {
+  particles: {
+    number: { value: 60 },
+    color: { value: "#C0C9EE" },
+    shape: { type: "circle" },
+    opacity: { value: 5 },
+    size: { value: 3 },
+    line_linked: {
+      enable: true,
+      distance: 120,
+      color: "#C0C9EE",
+      opacity: 5,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 0.7
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: { enable: false },
+      onclick: { enable: false }
+    }
+  },
+  retina_detect: true
+});
+</script>
+
+
+</body>
+<!-- LOADING ANIMATION -->
+<div id="preloader" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+  <div class="animate-spin rounded-full h-12 w-12 border-4 border-indigo-600 border-t-transparent"></div>
+</div>
+
+</html>
